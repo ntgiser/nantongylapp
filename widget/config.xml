@@ -1,0 +1,73 @@
+ <widget id="A6034048991782"  version="0.0.1">
+
+    <name>南通智慧园林</name>
+
+    <description>
+
+        Example For APICloud.
+
+    </description>
+
+    <author email="developer@apicloud.com" href="http://www.apicloud.com">
+
+        Developer
+
+    </author>
+
+	<content src="menu.html" />
+
+    <access origin="*" />
+
+    <preference name="pageBounce" value="false"/>
+
+	<preference name="appBackground" value="rgba(255,250,250,1)"/>
+
+	<preference name="windowBackground" value="rgba(255,250,250,1)"/>
+
+	<preference name="frameBackgroundColor" value="rgba(255,250,250,1)"/>
+
+	<preference name="hScrollBarEnabled" value="false"/>
+
+	<preference name="vScrollBarEnabled" value="false"/>
+
+	<preference name="autoLaunch" value="true"/>
+
+	<preference name="fullScreen" value="false"/>
+
+	<preference name="autoUpdate" value="true" />
+
+	<preference name="smartUpdate" value="false" />
+
+	<preference name="debug" value="true"/>
+
+	<preference name="statusBarAppearance" value="false"/>
+
+	<permission name="readPhoneState" />
+
+	<permission name="camera" />
+
+	<permission name="record" />
+
+	<permission name="location" />
+
+	<permission name="fileSystem" />
+
+	<permission name="internet" />
+
+	<permission name="bootCompleted" />
+
+	<permission name="hardware" />
+
+	<!--配置后台运行-->
+	<preference name="backgroundMode" value="location"/>
+
+	<!-- 配置 WKWebView内核 -->
+	<preference name="useWKWebView" value="true" />
+
+    <!--高德-->
+	<feature name="aMap">
+		<param name="android_api_key" value="d9b275ede40263b76874c6838e38f085" />
+		<param name="ios_api_key" value="c98d9ca3cd652bac4b13a985783dade0" />
+	</feature>
+
+</widget>
